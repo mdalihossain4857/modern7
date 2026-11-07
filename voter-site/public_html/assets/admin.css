@@ -1,0 +1,28 @@
+:root{--grn:#0b7a4b;--bg:#f3f6f2;--card:#fff;--ink:#16261e;--mut:#5b6d63;--bd:#dce6df}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 "Noto Sans Bengali",Kalpurush,"Nirmala UI","Siyam Rupali",system-ui,sans-serif}
+a{color:var(--grn)}
+.ad-w{max-width:1100px;margin:0 auto;padding:0 16px}
+.ad-h{background:linear-gradient(120deg,#05452c,#0b7a4b);color:#fff;padding:14px 0;border-bottom:5px solid #f6b81a}
+.ad-h .ad-w{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.ad-h a{color:#fff}
+h1{font-size:22px;margin:22px 0 8px}h3{margin:0 0 10px;font-size:17px}
+.ad-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0}
+.ad-tabs a{padding:8px 14px;border-radius:10px;background:var(--card);border:1px solid var(--bd);text-decoration:none;color:var(--ink);font-weight:600}
+.ad-tabs a.on{background:var(--grn);color:#fff;border-color:var(--grn)}
+.ad-card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;margin:12px 0;overflow-x:auto}
+.ad-card.ok{background:#e7f6ee;border-color:#9fd3b6}.ad-card.err{background:#fdecee;border-color:#f1a7b0}.ad-card.warn{background:#fff6d6;border-color:#f6d27a}
+.ad-form label{display:block;margin:10px 0;font-size:13px;color:var(--mut)}
+input,select,button{font:inherit;color:var(--ink);border:1px solid var(--bd);border-radius:8px;padding:8px 10px;background:#fff}
+.ad-form input{display:block;width:100%;margin-top:3px}
+.ad-btn{background:var(--grn);color:#fff;border-color:var(--grn);cursor:pointer;font-weight:600;padding:9px 18px}
+.ad-btn:disabled{opacity:.5}.ad-btn.sm{padding:5px 10px;font-size:13px}.ad-btn.gray{background:#667;border-color:#667}.ad-btn.red{background:#d92d3f;border-color:#d92d3f}
+.ad-inline{display:flex;flex-wrap:wrap;gap:8px}.ad-inline input{flex:1;min-width:140px}
+.ad-kp{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:12px 0}
+.ad-kp div{background:var(--card);border:1px solid var(--bd);border-left:5px solid var(--grn);border-radius:10px;padding:12px}
+.ad-kp b{display:block;font-size:24px}.ad-kp span{color:var(--mut);font-size:13px}
+.ad-t{border-collapse:collapse;width:100%;font-size:14px}.ad-t th{background:#e7f3ec;text-align:left;padding:8px;white-space:nowrap}
+.ad-t td{padding:7px 8px;border-top:1px solid var(--bd);vertical-align:top}.ad-t tr.off td{opacity:.55}
+.ad-acts{display:flex;flex-wrap:wrap;gap:6px}.ad-acts form{display:flex;gap:4px;margin:0}.ad-acts input{width:130px;padding:4px 8px}
+.ad-prog{height:16px;background:#e7f3ec;border-radius:8px;overflow:hidden;margin:12px 0 6px}.ad-prog i{display:block;height:100%;width:0;background:var(--grn);transition:width .3s}
+.hide{display:none}.mu{color:var(--mut);font-size:13px}.warn-t{color:#a2470b;font-weight:600}
+code{background:#eef3f0;padding:1px 5px;border-radius:4px}

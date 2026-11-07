@@ -1,0 +1,6 @@
+/* সার্ভার সংস্করণের অতিরিক্ত স্টাইল */
+.hb{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.hb form{margin:0}.hb a.chip{color:#fff;text-decoration:none}
+#logoutBtn{width:auto;border:0;color:#fff}
+.adm .rm{display:block!important}.adm .ck label.rm{display:flex!important}.adm button.rm{display:inline-block!important}
+#tb.busy{opacity:.5;transition:opacity .2s}
